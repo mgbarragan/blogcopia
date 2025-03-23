@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function __invoke()
     {
-        //return view('welcome');
+        //return view('welcome'); // modificando comentario para prueba de git
         return view('home');
     }
 }
